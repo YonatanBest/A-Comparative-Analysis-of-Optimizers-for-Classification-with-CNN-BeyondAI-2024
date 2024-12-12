@@ -8,11 +8,11 @@
 
 3. Model Design: A flexible feedforward neural network (FlexibleNN) was developed to study the effects of model complexity on performance.
 
-A.Data Preparation: The MNIST dataset was used for training and evaluation, consisting of grayscale images of handwritten digits.
+A. Data Preparation: The MNIST dataset was used for training and evaluation, consisting of grayscale images of handwritten digits.
 
-B.Training and Evaluation Pipeline: The model was trained using cross-entropy loss and SGD optimizer, with training and testing across epochs to analyze performance trends like overfitting and double descent.
+B. Training and Evaluation Pipeline: The model was trained using cross-entropy loss and SGD optimizer, with training and testing across epochs to analyze performance trends like overfitting and double descent.
 
-C.Visualization: Training and test losses were plotted across epochs for each model configuration. This allowed the identification of overfitting regions and the double descent behavior as model complexity increased.
+C. Visualization: Training and test losses were plotted across epochs for each model configuration. This allowed the identification of overfitting regions and the double descent behavior as model complexity increased.
 
 4. Effect of Model Complexity: 
 A. Increasing the number and size of hidden layers initially improved performance, reducing both training and test loss.
@@ -24,9 +24,9 @@ C.Double Descent Phenomenon: For highly complex models, test loss showed an init
 Performance Trends:  
 A. Simpler models struggled to capture patterns effectively, resulting in higher training and test loss.
 
-B.Intermediate-complexity models balanced generalization and overfitting, achieving optimal performance.
+B. Intermediate-complexity models balanced generalization and overfitting, achieving optimal performance.
 
-C.Loss Visualization: Training and test loss curves provided clear visual evidence of overfitting and the transition to the double descent phase as model complexity increased.
+C. Loss Visualization: Training and test loss curves provided clear visual evidence of overfitting and the transition to the double descent phase as model complexity increased.
 
 5. This study demonstrated the double descent phenomenon, where increasing model complexity initially caused overfitting but later improved generalization. These findings highlight the complex relationship between model capacity and performance.
 
